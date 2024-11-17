@@ -1,0 +1,50 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .dashboard {
+      max-width: 1200px;
+      margin: auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .data-section, .chart-section, .logs-section {
+      margin-bottom: 20px;
+    }
+
+    .data-section p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .chart-section h2, .logs-section h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .logs-section ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .logs-section li {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      margin-bottom: 5px;
+      padding: 10px;
+      border-radius: 4px;
+      color: #555;
+    }
